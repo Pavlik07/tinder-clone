@@ -7,6 +7,11 @@
     border-bottom: 1px solid #DCDCDC; 
 }
 
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .chat__details {
     flex: 1;
     padding: 20px;
