@@ -35,7 +35,7 @@ function ChatScreen () {
 
     return (
         <div className="chatScreen">
-            <p className="chatScreen__timestamp">You matched with Elen on 10/08/2020</p>
+            <p className="chatScreen__timestamp">You matched with Ellen on 10/08/2020</p>
             {messages.map((message) =>
                 message.name==='Ellen' ? (
                     <div className="chatScreen__message">
@@ -63,7 +63,7 @@ function ChatScreen () {
                     />
                 <button type="submit" className="chatScreen__inputButton"> SEND </button>
             </form>
-            
+
         </div>       
     );
 }

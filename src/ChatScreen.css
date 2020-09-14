@@ -37,7 +37,7 @@
 .chatScreen__inputField {
     flex: 1;
     padding: 10px;
-    border: none;
+    border: 0.3px solid #fe3d71;
 }
 
 .chatScreen__inputButton {
